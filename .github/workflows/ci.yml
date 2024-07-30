@@ -28,7 +28,7 @@ jobs:
 
       - name: Run the tests
         run:  cd worksheet2/my-react-app
-              npm test
+        run:  npm test
 
       - name: Build
         run: npm run build
