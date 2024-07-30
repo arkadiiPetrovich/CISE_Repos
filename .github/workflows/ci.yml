@@ -25,8 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-        cd worksheet2/my-react-app
-        npm install
+          cd worksheet2/my-react-app
+          npm install
         
       - name: List
         run: ls worksheet2
@@ -36,10 +36,10 @@ jobs:
         
       - name: Run the tests
         run: |
-        cd worksheet2/my-react-app 
-        npm test
+          cd worksheet2/my-react-app 
+          npm test
 
       - name: Build
         run: |
-        cd worksheet2/my-react-app
-        npm run build
+          cd worksheet2/my-react-app
+          npm run build
