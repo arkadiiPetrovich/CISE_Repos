@@ -2,9 +2,9 @@ name: CI_action
 
 on:
   push:
-    branches: [week2Lab]
+    branches: [main]
   pull_request:
-    branches: [week2Lab]
+    branches: [main]
 
 jobs:
   build:
