@@ -28,7 +28,10 @@ jobs:
 
 
       - name: List
-        run: ls
+        run: ls worksheet2
+
+      - name: Open Folder
+        run: cd worksheet2/my-react-app
         
       - name: Run the tests
         run:  npm test
