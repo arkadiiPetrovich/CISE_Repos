@@ -33,7 +33,8 @@ jobs:
         run: cd worksheet2/my-react-app
         
       - name: Run the tests
-        run:  npm test
+        run:  cd worksheet2/my-react-app 
+        npm test
 
       - name: Build
         run: npm run build
